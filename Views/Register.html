@@ -81,7 +81,7 @@
 
 function yesnoCheck() {
     if (document.getElementById('yesCheck').checked) {
-        document.getElementById('ifRegistered').style.display = 'inline-block';
+        document.getElementById('ifRegistered').style.display = 'inline';
     }
     else document.getElementById('ifRegistered').style.display = 'none';
 
@@ -651,7 +651,7 @@ function yesnoCheck() {
 
 
 
-               <div class="col-md-12 form-group" id="ifRegistered" style="display:none">
+               <div class="container no-gutter" id="ifRegistered" style="display:none">
 
 
 					   <div class="col-md-12 form-group">
@@ -661,7 +661,7 @@ function yesnoCheck() {
 												
                       </div>
 									
-
+                      	<div class="row container">	
                       <div class="col-md-6 form-group">
                           <label for="">Designation <span class="text-danger">*</span></label>
 												<select name="Designation" class="dropdown form-control" id="Form_RegisterForm_Designation">
@@ -676,7 +676,7 @@ function yesnoCheck() {
 
 						</select>
                       </div>
-									
+							
 							 <div class="col-md-3 form-group">
                           <label for="">Do you have a PAN? <span class="text-danger">*</span></label>
                           <select name="PAN" class="dropdown form-control valid" id="Form_RegisterForm_PAN" aria-invalid="false">
@@ -731,7 +731,7 @@ function yesnoCheck() {
 
 									
 
-											
+				</div>							
                </div>
 									
 
